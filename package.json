@@ -1,14 +1,20 @@
 {
   "name": "sniffkin-session-processor",
-  "version": "0.3.0",
-  "description": "",
+  "version": "0.3.1",
+  "type": "module",
+  "description": "Session processor plugin for Sniff-kin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "network"
+  ],
+  "author": {
+    "name": "hylom (Hiromichi Matsushima)",
+    "email": "hylom@hylom.net"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.13",
     "typescript": "^4.9.4"
